@@ -14,6 +14,7 @@ import argparse
 from models import *
 from utils import progress_bar
 
+# os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 torch.cuda.set_device(0)
 
 parser = argparse.ArgumentParser(description='PyTorch CIFAR10 Training')
@@ -29,23 +30,27 @@ start_epoch = 0  # start from epoch 0 or last checkpoint epoch
 print('==> Preparing data..')
 transform_train = transforms.Compose([
     # transforms.RandomCrop(128, padding=4),
+    torchvision.transforms.Resize(size=128, interpolation=2),
     transforms.RandomHorizontalFlip(),
     transforms.RandomVerticalFlip(),
     transforms.RandomRotation(180),
     transforms.ToTensor(),
-    transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
+    transforms.Normalize(mean = (0.5, 0.5, 0.5), std = (0.5, 0.5, 0.5)),
+    # transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
 ])
 
 transform_test = transforms.Compose([
+    torchvision.transforms.Resize(size=64, interpolation=2),
     transforms.ToTensor(),
-    transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
+    transforms.Normalize(mean = (0.5, 0.5, 0.5), std = (0.5, 0.5, 0.5)),
+    # transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
 ])
 
-trainset = torchvision.datasets.ImageFolder(root='/tmp2/jojo/EyeJaundice/data/only_eye/train', 
+trainset = torchvision.datasets.ImageFolder(root='/tmp2/jojo/EyeJaundice/data/only_eyes/train', 
                                             transform=transform_train)
 trainloader = torch.utils.data.DataLoader(trainset, batch_size=32, shuffle=True, num_workers=2)
 
-testset = torchvision.datasets.ImageFolder(root='/tmp2/jojo/EyeJaundice/data/only_eye/test',
+testset = torchvision.datasets.ImageFolder(root='/tmp2/jojo/EyeJaundice/data/only_eyes/test',
                                        transform=transform_test)
 testloader = torch.utils.data.DataLoader(testset, batch_size=32, shuffle=False, num_workers=2)
 
@@ -54,7 +59,7 @@ classes = ('normal', 'yellow')
 # Model
 print('==> Building model..')
 # net = VGG('VGG19')
-# net = ResNet18()
+net = ResNet50()
 # net = PreActResNet18()
 # net = GoogLeNet()
 # net = DenseNet121()
@@ -65,11 +70,11 @@ print('==> Building model..')
 # net = ShuffleNetG2()
 # net = SENet18()
 # net = ShuffleNetV2(1)
-net = EfficientNetB0()
+# net = EfficientNetB0()
 net = net.to(device)
-if device == 'cuda':
-    net = torch.nn.DataParallel(net)
-    cudnn.benchmark = True
+# if device == 'cuda':
+#     net = torch.nn.DataParallel(net)
+#     cudnn.benchmark = True
 
 if args.resume:
     # Load checkpoint.
