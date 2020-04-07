@@ -12,10 +12,10 @@ import os
 import argparse
 
 from models import *
-from utils import progress_bar
+# from utils import progress_bar
 
 # os.environ["CUDA_VISIBLE_DEVICES"] = "2"
-torch.cuda.set_device(0)
+torch.cuda.set_device(2)
 
 parser = argparse.ArgumentParser(description='PyTorch CIFAR10 Training')
 parser.add_argument('--lr', default=0.1, type=float, help='learning rate')
@@ -59,7 +59,7 @@ classes = ('normal', 'yellow')
 # Model
 print('==> Building model..')
 # net = VGG('VGG19')
-net = ResNet50()
+# net = ResNet50()
 # net = PreActResNet18()
 # net = GoogLeNet()
 # net = DenseNet121()
@@ -70,8 +70,8 @@ net = ResNet50()
 # net = ShuffleNetG2()
 # net = SENet18()
 # net = ShuffleNetV2(1)
-# net = EfficientNetB0()
-net = net.to(device)
+net = EfficientNetB0()
+net = net.cuda()
 # if device == 'cuda':
 #     net = torch.nn.DataParallel(net)
 #     cudnn.benchmark = True
@@ -96,7 +96,7 @@ def train(epoch):
     correct = 0
     total = 0
     for batch_idx, (inputs, targets) in enumerate(trainloader):
-        inputs, targets = inputs.to(device), targets.to(device)
+        inputs, targets = inputs.cuda(), targets.cuda()
         optimizer.zero_grad()
         outputs = net(inputs)
         loss = criterion(outputs, targets)
@@ -108,8 +108,9 @@ def train(epoch):
         total += targets.size(0)
         correct += predicted.eq(targets).sum().item()
 
-        progress_bar(batch_idx, len(trainloader), 'Loss: %.3f | Acc: %.3f%% (%d/%d)'
-            % (train_loss/(batch_idx+1), 100.*correct/total, correct, total))
+        # progress_bar(batch_idx, len(trainloader), 'Loss: %.3f | Acc: %.3f%% (%d/%d)'
+        #     % (train_loss/(batch_idx+1), 100.*correct/total, correct, total))
+    print(f"Loss: {train_loss / len(trainloader):.2f} | Acc: {100.*correct/total:.2f}")
 
 def test(epoch):
     global best_acc
@@ -119,7 +120,7 @@ def test(epoch):
     total = 0
     with torch.no_grad():
         for batch_idx, (inputs, targets) in enumerate(testloader):
-            inputs, targets = inputs.to(device), targets.to(device)
+            inputs, targets = inputs.cuda(), targets.cuda()
             outputs = net(inputs)
             loss = criterion(outputs, targets)
 
@@ -128,8 +129,9 @@ def test(epoch):
             total += targets.size(0)
             correct += predicted.eq(targets).sum().item()
 
-            progress_bar(batch_idx, len(testloader), 'Loss: %.3f | Acc: %.3f%% (%d/%d)'
-                % (test_loss/(batch_idx+1), 100.*correct/total, correct, total))
+            # progress_bar(batch_idx, len(testloader), 'Loss: %.3f | Acc: %.3f%% (%d/%d)'
+            #     % (test_loss/(batch_idx+1), 100.*correct/total, correct, total))
+    print(f"Loss: {test_loss / len(testloader):.2f} | Acc: {100.*correct/total:.2f}")
 
     # Save checkpoint.
     acc = 100.*correct/total
