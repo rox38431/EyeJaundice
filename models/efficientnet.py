@@ -39,6 +39,13 @@ class SE(nn.Module):
 
 class Block(nn.Module):
     '''expansion + depthwise + pointwise + squeeze-excitation'''
+    
+    '''    
+    # (expansion, out_planes, num_blocks, kernel_size, stride)
+    cfg = [(1, 16, 1, 3, 1), (6, 24, 2, 3, 2), (6, 40, 2, 5, 2),
+           (6, 80, 3, 3, 2), (6, 112, 3, 5, 1), (6, 192, 4, 5, 2),
+           (6, 320, 1, 3, 1)]
+    '''
     def __init__(self,
                  in_planes,
                  out_planes,
@@ -111,8 +118,8 @@ class EfficientNet(nn.Module):
                                padding=1,
                                bias=False)
         self.bn1 = nn.BatchNorm2d(32)
-        self.layers = self._make_layers(in_planes=32)
-        self.linear = nn.Linear(cfg[-1][1], num_classes)
+        self.layers = self._make_layers(in_planes=32)  # 7 layers
+        self.linear = nn.Linear(cfg[-1][1], num_classes)  # classification layer
 
     def _make_layers(self, in_planes):
         layers = []

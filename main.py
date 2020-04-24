@@ -47,7 +47,7 @@ class EyeDataset(Dataset):
 
 
 parser = argparse.ArgumentParser(description='PyTorch CIFAR10 Training')
-parser.add_argument('--lr', default=0.1, type=float, help='learning rate')
+parser.add_argument('--lr', default=0.01, type=float, help='learning rate')
 parser.add_argument('--resume', '-r', action='store_true', help='resume from checkpoint')
 args = parser.parse_args()
 
@@ -210,7 +210,7 @@ for validation_index in range(cross_num):  # which part of training set should b
     validset = EyeDataset(valid_imgs, transform_test)
     valid_loader = torch.utils.data.DataLoader(validset, batch_size = 32, shuffle=False, num_workers=2)
 
-    for epoch in range(start_epoch, start_epoch+200):
+    for epoch in range(200):
         print(f"\n({validation_index+1})Epoch: {epoch}")
         train(epoch, train_loader)
         acc, loss = valid(epoch, valid_loader)
@@ -218,7 +218,7 @@ for validation_index in range(cross_num):  # which part of training set should b
             valid_acc += acc
             valid_loss += loss
 
-print(f"valid acc: {valid_acc / 5:.2f}, valid loss: {valid_los / 5:.2f}")
+print(f"valid acc: {valid_acc / 5:.2f}, valid loss: {valid_loss / 5:.2f}")
 
 net.load_state_dict(torch.load("weights/init_weight.pt"))
 min_loss = 10000
@@ -251,12 +251,13 @@ for epoch in range(200):
         non_improve_count += 1
 
     if (non_improve_count == 5):
-        break
+        pass
+        # break
 
-print("========= result on testing set =========")
-print("testing set length info:", len(test_imgs))
+print("\n========= result on testing set =========\n")
+print("testing set length info:", len(test_img_list))
 
-testset = EyeDataset(test_imgs, transform_test)
+testset = EyeDataset(test_img_list, transform_test)
 test_loader = torch.utils.data.DataLoader(testset, batch_size = 32, shuffle=False, num_workers=2)
 valid(0, test_loader)
 
