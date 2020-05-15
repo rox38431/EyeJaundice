@@ -1,124 +1,65 @@
-'''Some helper functions for PyTorch, including:
-    - get_mean_and_std: calculate the mean and std value of dataset.
-    - msr_init: net parameter initialization.
-    - progress_bar: progress bar mimic xlua.progress.
-'''
 import os
-import sys
-import time
-import math
-
-import torch.nn as nn
-import torch.nn.init as init
+import matplotlib.pyplot as plt
+import torch
 
 
-def get_mean_and_std(dataset):
-    '''Compute the mean and std value of dataset.'''
-    dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=True, num_workers=2)
-    mean = torch.zeros(3)
-    std = torch.zeros(3)
-    print('==> Computing mean and std..')
-    for inputs, targets in dataloader:
-        for i in range(3):
-            mean[i] += inputs[:,i,:,:].mean()
-            std[i] += inputs[:,i,:,:].std()
-    mean.div_(len(dataset))
-    std.div_(len(dataset))
-    return mean, std
-
-def init_params(net):
-    '''Init layer parameters.'''
-    for m in net.modules():
+def get_last_conv_name(net):
+    layer_name = None
+    for name, m in net.named_modules():
         if isinstance(m, nn.Conv2d):
-            init.kaiming_normal(m.weight, mode='fan_out')
-            if m.bias:
-                init.constant(m.bias, 0)
-        elif isinstance(m, nn.BatchNorm2d):
-            init.constant(m.weight, 1)
-            init.constant(m.bias, 0)
-        elif isinstance(m, nn.Linear):
-            init.normal(m.weight, std=1e-3)
-            if m.bias:
-                init.constant(m.bias, 0)
+            layer_name = name
+    return layer_name
 
 
-_, term_width = os.popen('stty size', 'r').read().split()
-term_width = int(term_width)
+def prepare_dir(present_time):
+    if (os.path.exists("D:\\Pro\\EyeJaundice\\weights") == False):
+        os.mkdir("D:\\Pro\\EyeJaundice\\weights")
 
-TOTAL_BAR_LENGTH = 65.
-last_time = time.time()
-begin_time = last_time
-def progress_bar(current, total, msg=None):
-    global last_time, begin_time
-    if current == 0:
-        begin_time = time.time()  # Reset for new bar.
+    if (os.path.exists("D:\\Pro\\EyeJaundice\\plt_figure") == False):
+        os.mkdir("D:\\Pro\\EyeJaundice\\plt_figure")
 
-    cur_len = int(TOTAL_BAR_LENGTH*current/total)
-    rest_len = int(TOTAL_BAR_LENGTH - cur_len) - 1
+    if (os.path.exists(f"D:\\Pro\\EyeJaundice\\weights\\{present_time}") == False):
+        os.mkdir(f"D:\\Pro\\EyeJaundice\\weights\\{present_time}")
 
-    sys.stdout.write(' [')
-    for i in range(cur_len):
-        sys.stdout.write('=')
-    sys.stdout.write('>')
-    for i in range(rest_len):
-        sys.stdout.write('.')
-    sys.stdout.write(']')
+    if (os.path.exists(f"D:\\Pro\\EyeJaundice\\plt_figure\\{present_time}") == False):
+        os.mkdir(f"D:\\Pro\\EyeJaundice\\plt_figure\\{present_time}")
 
-    cur_time = time.time()
-    step_time = cur_time - last_time
-    last_time = cur_time
-    tot_time = cur_time - begin_time
 
-    L = []
-    L.append('  Step: %s' % format_time(step_time))
-    L.append(' | Tot: %s' % format_time(tot_time))
-    if msg:
-        L.append(' | ' + msg)
+def plot_figure(train_acc_list, valid_acc_list, train_loss_list, valid_loss_list, val_idx, present_time):
+    plt.plot(train_acc_list)
+    plt.plot(valid_acc_list)
+    plt.xlabel("Epoch")
+    plt.ylabel("Accuracy")
+    plt.savefig(f"D:\\Pro\\EyeJaundice\\plt_figure\\{present_time}\\train_acc_{val_idx + 1}.png")
+    plt.close()
 
-    msg = ''.join(L)
-    sys.stdout.write(msg)
-    for i in range(term_width-int(TOTAL_BAR_LENGTH)-len(msg)-3):
-        sys.stdout.write(' ')
+    plt.plot(train_loss_list)
+    plt.plot(valid_loss_list)
+    plt.xlabel("Epoch")
+    plt.ylabel("Loss")
+    plt.savefig(f"D:\\Pro\\EyeJaundice\\plt_figure\\{present_time}\\train_loss_{val_idx + 1}.png")
+    plt.close()
 
-    # Go back to the center of the bar.
-    for i in range(term_width-int(TOTAL_BAR_LENGTH/2)+2):
-        sys.stdout.write('\b')
-    sys.stdout.write(' %d/%d ' % (current+1, total))
 
-    if current < total-1:
-        sys.stdout.write('\r')
-    else:
-        sys.stdout.write('\n')
-    sys.stdout.flush()
+def load_parameter(net, date):
+    assert os.path.isdir(f"D:\\Pro\\EyeJaundice\\weights\\{date}\\checkpoint.pth"), 'Error: no checkpoint directory found!'
 
-def format_time(seconds):
-    days = int(seconds / 3600/24)
-    seconds = seconds - days*3600*24
-    hours = int(seconds / 3600)
-    seconds = seconds - hours*3600
-    minutes = int(seconds / 60)
-    seconds = seconds - minutes*60
-    secondsf = int(seconds)
-    seconds = seconds - secondsf
-    millis = int(seconds*1000)
+    checkpoint = torch.load(f"D:\\Pro\\EyeJaundice\\weights\\{date}\\checkpoint.pth")
+    net.load_state_dict(checkpoint['net'])
+    best_acc = checkpoint['best_acc']
+    start_epoch = checkpoint['epoch']
+    
+    return net, best_acc, start_epoch
 
-    f = ''
-    i = 1
-    if days > 0:
-        f += str(days) + 'D'
-        i += 1
-    if hours > 0 and i <= 2:
-        f += str(hours) + 'h'
-        i += 1
-    if minutes > 0 and i <= 2:
-        f += str(minutes) + 'm'
-        i += 1
-    if secondsf > 0 and i <= 2:
-        f += str(secondsf) + 's'
-        i += 1
-    if millis > 0 and i <= 2:
-        f += str(millis) + 'ms'
-        i += 1
-    if f == '':
-        f = '0ms'
-    return f
+
+def store_parameter(epoch, net, optimizer, best_acc, best_loss, present_time):
+    present_time = time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime())
+    os.mkdir(f"D:\\Pro\\EyeJaundice\\weights\\{present_time}")
+
+    torch.save({
+        "epoch": epoch + 1,
+        "model_weight": net.state_dict(),
+        "optim_weight": optimizer.state_dict(),
+        "best_acc": best_acc,
+        "best_loss": best_loss
+    }, f"D:\\Pro\\EyeJaundice\\weights\\{present_time}\\checkpoint.pth")
