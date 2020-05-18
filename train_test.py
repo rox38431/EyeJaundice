@@ -40,6 +40,7 @@ def test(net, criterion, epoch, testloader):
         for batch_idx, (inputs, targets) in enumerate(testloader):
             inputs, targets = Variable(inputs).cuda(), Variable(targets).cuda()
             outputs = net(inputs)
+            print(outputs[0].data, outputs[1].data)
             loss = criterion(outputs, targets)
 
             test_loss += loss.item()
@@ -57,14 +58,14 @@ def k_fold_cross_validation(net, optimizer, criterion, train_img_list, k, presen
     total_best_valid_acc, total_best_valid_loss = 0, 0
 
     for val_idx in range(k):  # Which part of training set should be validation set
-        net.load_state_dict(torch.load(f"D:\\Pro\\EyeJaundice\\weights\\{present_time}\\init_weight.pth"))
+        net.load_state_dict(torch.load(f"./weights/{present_time}/init_weight.pth"))
         train_imgs, valid_imgs = get_cross_valid_img_list(val_idx, valid_img_num, train_img_list)
         train_loader = get_loader(train_imgs, transform_train)
         valid_loader = get_loader(valid_imgs, transform_test)
         train_acc_list, train_loss_list, valid_acc_list, valid_loss_list = list(), list(), list(), list()
         best_valid_loss, best_valid_epoch, non_improve_count = 10000, 0, 0
        
-        for epoch in range(200):
+        for epoch in range(120):
             print(f"\n({val_idx+1})Epoch: {epoch + 1}")
             train_acc, train_loss = train(net, optimizer, criterion, epoch, train_loader)
             valid_acc, valid_loss = test(net, criterion, epoch, valid_loader)
@@ -82,7 +83,7 @@ def k_fold_cross_validation(net, optimizer, criterion, train_img_list, k, presen
             else:
                 non_improve_count += 1
 
-            if (non_improve_count >= 10):
+            if (non_improve_count >= 5):
                 break
 
         total_best_valid_acc += valid_acc_list[best_valid_epoch]
@@ -98,11 +99,11 @@ def final_training(net, optimizer, criterion, train_img_list, present_time):
     trainset = EyeDataset(train_img_list, transform_train)
     train_loader = torch.utils.data.DataLoader(trainset, batch_size=32, shuffle=True, num_workers=2)
 
-    for epoch in range(200):
+    for epoch in range(100):
         print(f"\n(train)Epoch: {epoch}")
         train(net, optimizer, criterion, epoch, train_loader)
 
-    torch.save(net.state_dict(), f"D:\\Pro\\EyeJaundice\\weights\\{present_time}\\final_testing_weight.pth")
+    # torch.save(net.state_dict(), f"./weights/{present_time}/final_testing_weight.pth")
 
     return net
 

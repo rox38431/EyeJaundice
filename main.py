@@ -23,10 +23,10 @@ import matplotlib.pyplot as plt
 from models import *
 from utils import prepare_dir, get_last_conv_name, load_parameter, store_parameter
 from train_test import train, test, k_fold_cross_validation, final_training, final_testing
-# from utils import progress_bar
+from grad_CAM import CAM
 
 # os.environ["CUDA_VISIBLE_DEVICES"] = "2"
-torch.cuda.set_device(0)
+torch.cuda.set_device(1)
 
 
 def main():
@@ -54,11 +54,11 @@ def main():
     optimizer = optim.Adam(net.parameters(), lr=args.lr, weight_decay=1e-4)
     # optimizer = optim.SGD(net.parameters(), lr=args.lr, momentum=0.9, weight_decay=5e-4)
     
-    train_img_list = glob.glob("D:\\Pro\\eye_data\\dataset\\train\\*.jpg")
-    test_img_list = glob.glob("D:\\Pro\\eye_data\\dataset\\test\\*.jpg")
+    train_img_list = glob.glob("./../eye_data/dataset/train/*")
+    test_img_list = glob.glob("./../eye_data/dataset/test/*")
     random.shuffle(train_img_list)
 
-    torch.save(net.state_dict(), f"D:\\Pro\\EyeJaundice\\weights\\{present_time}\\init_weight.pth")  # 先儲存初始的 weight, 5-fold cross validation 每次都需要先 load 初始 weigth
+    torch.save(net.state_dict(), f"./weights/{present_time}/init_weight.pth")  # 先儲存初始的 weight, 5-fold cross validation 每次都需要先 load 初始 weigth
     total_best_valid_acc, total_best_valid_loss = 0, 0  # 用來算在 5-fold cross validation 上 accuracy 和 loss 的表現
 
 
@@ -68,7 +68,7 @@ def main():
 
 
     # Training: use the entire training set to train the model
-    net.load_state_dict(torch.load(f"D:\\Pro\\EyeJaundice\\weights\\{present_time}\\init_weight.pth"))
+    net.load_state_dict(torch.load(f"./weights/{present_time}/init_weight.pth"))
     random.shuffle(train_img_list)
     net = final_training(net, optimizer, criterion, train_img_list, present_time)
 
@@ -77,8 +77,9 @@ def main():
     print("\n========= result on testing set =========\n")
     print("testing set length info:", len(test_img_list))
     final_testing(net, criterion, test_img_list)
+    store_parameter(120, net, optimizer, -1, -1, present_time)
 
-
+    CAM(net, test_img_list)
 
 if __name__ == "__main__":
     main()
