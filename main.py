@@ -38,9 +38,10 @@ def main():
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
     present_time = time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime())
+    input_type = "only_eye"
 
     print("Prepare directory...")
-    prepare_dir(present_time)
+    prepare_dir(present_time, input_type)
 
     print("Prepare model...")
     net = EfficientNetB0().cuda()
@@ -54,8 +55,8 @@ def main():
     optimizer = optim.Adam(net.parameters(), lr=args.lr, weight_decay=1e-4)
     # optimizer = optim.SGD(net.parameters(), lr=args.lr, momentum=0.9, weight_decay=5e-4)
     
-    train_img_list = glob.glob("./../eye_data/dataset/train/*")
-    test_img_list = glob.glob("./../eye_data/dataset/test/*")
+    train_img_list = glob.glob(f"./../eye_data/{input_type}/train/*")
+    test_img_list = glob.glob(f"./../eye_data/{input_type}/test/*")
     random.shuffle(train_img_list)
 
     torch.save(net.state_dict(), f"./weights/{present_time}/init_weight.pth")  # 先儲存初始的 weight, 5-fold cross validation 每次都需要先 load 初始 weigth
@@ -63,7 +64,7 @@ def main():
 
 
     # Training: use 5-fold cross validation to test the generalizability
-    k = 5
+    k = 10
     k_fold_cross_validation(net, optimizer, criterion, train_img_list, k, present_time)
 
 
@@ -79,7 +80,7 @@ def main():
     final_testing(net, criterion, test_img_list)
     store_parameter(120, net, optimizer, -1, -1, present_time)
 
-    CAM(net, test_img_list)
+    CAM(net, test_img_list, present_time, input_type)
 
 if __name__ == "__main__":
     main()

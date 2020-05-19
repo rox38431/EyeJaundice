@@ -1,0 +1,1041 @@
+nohup: ignoring input
+Prepare directory...
+Prepare model...
+
+(0)Epoch: 0
+Loss: 0.61 | Acc: 71.35
+Loss: 0.67 | Acc: 70.00
+
+(0)Epoch: 1
+Loss: 0.29 | Acc: 87.83
+Loss: 0.62 | Acc: 70.00
+
+(0)Epoch: 2
+Loss: 0.26 | Acc: 89.14
+Loss: 0.28 | Acc: 90.00
+
+(0)Epoch: 3
+Loss: 0.22 | Acc: 92.13
+Loss: 0.34 | Acc: 93.33
+
+(0)Epoch: 4
+Loss: 0.21 | Acc: 91.76
+Loss: 0.20 | Acc: 95.00
+
+(0)Epoch: 5
+Loss: 0.18 | Acc: 93.45
+Loss: 0.24 | Acc: 93.33
+
+(0)Epoch: 6
+Loss: 0.23 | Acc: 89.89
+Loss: 0.47 | Acc: 81.67
+
+(0)Epoch: 7
+Loss: 0.17 | Acc: 93.26
+Loss: 0.17 | Acc: 96.67
+
+(0)Epoch: 8
+Loss: 0.18 | Acc: 95.13
+Loss: 0.27 | Acc: 96.67
+
+(0)Epoch: 9
+Loss: 0.15 | Acc: 94.19
+Loss: 0.17 | Acc: 95.00
+
+(0)Epoch: 10
+Loss: 0.15 | Acc: 94.38
+Loss: 0.14 | Acc: 96.67
+
+(0)Epoch: 11
+Loss: 0.15 | Acc: 94.76
+Loss: 0.23 | Acc: 93.33
+
+(0)Epoch: 12
+Loss: 0.15 | Acc: 94.01
+Loss: 0.32 | Acc: 91.67
+
+(0)Epoch: 13
+Loss: 0.14 | Acc: 95.32
+Loss: 0.23 | Acc: 91.67
+
+(0)Epoch: 14
+Loss: 0.16 | Acc: 94.01
+Loss: 0.33 | Acc: 93.33
+
+(0)Epoch: 15
+Loss: 0.12 | Acc: 95.69
+Loss: 0.18 | Acc: 96.67
+
+(0)Epoch: 16
+Loss: 0.14 | Acc: 94.38
+Loss: 0.15 | Acc: 95.00
+
+(0)Epoch: 17
+Loss: 0.16 | Acc: 93.45
+Loss: 0.20 | Acc: 91.67
+
+(0)Epoch: 18
+Loss: 0.14 | Acc: 94.76
+Loss: 0.26 | Acc: 95.00
+
+(0)Epoch: 19
+Loss: 0.13 | Acc: 94.76
+Loss: 0.18 | Acc: 95.00
+
+(0)Epoch: 20
+Loss: 0.12 | Acc: 96.07
+Loss: 0.16 | Acc: 95.00
+
+(1)Epoch: 0
+Loss: 0.68 | Acc: 61.80
+Loss: 0.69 | Acc: 60.00
+
+(1)Epoch: 1
+Loss: 0.31 | Acc: 89.51
+Loss: 1.16 | Acc: 60.00
+
+(1)Epoch: 2
+Loss: 0.30 | Acc: 89.33
+Loss: 0.22 | Acc: 91.67
+
+(1)Epoch: 3
+Loss: 0.24 | Acc: 91.01
+Loss: 0.18 | Acc: 91.67
+
+(1)Epoch: 4
+Loss: 0.22 | Acc: 91.57
+Loss: 0.16 | Acc: 95.00
+
+(1)Epoch: 5
+Loss: 0.19 | Acc: 92.13
+Loss: 0.24 | Acc: 93.33
+
+(1)Epoch: 6
+Loss: 0.19 | Acc: 93.26
+Loss: 0.22 | Acc: 86.67
+
+(1)Epoch: 7
+Loss: 0.20 | Acc: 92.70
+Loss: 0.20 | Acc: 90.00
+
+(1)Epoch: 8
+Loss: 0.18 | Acc: 91.76
+Loss: 0.15 | Acc: 95.00
+
+(1)Epoch: 9
+Loss: 0.19 | Acc: 93.45
+Loss: 0.22 | Acc: 91.67
+
+(1)Epoch: 10
+Loss: 0.17 | Acc: 92.51
+Loss: 0.17 | Acc: 93.33
+
+(1)Epoch: 11
+Loss: 0.17 | Acc: 93.07
+Loss: 0.14 | Acc: 96.67
+
+(1)Epoch: 12
+Loss: 0.17 | Acc: 94.38
+Loss: 0.12 | Acc: 96.67
+
+(1)Epoch: 13
+Loss: 0.18 | Acc: 93.63
+Loss: 0.19 | Acc: 96.67
+
+(1)Epoch: 14
+Loss: 0.14 | Acc: 95.13
+Loss: 0.11 | Acc: 96.67
+
+(1)Epoch: 15
+Loss: 0.17 | Acc: 94.57
+Loss: 0.18 | Acc: 95.00
+
+(1)Epoch: 16
+Loss: 0.15 | Acc: 94.01
+Loss: 0.10 | Acc: 96.67
+
+(1)Epoch: 17
+Loss: 0.13 | Acc: 95.13
+Loss: 0.12 | Acc: 96.67
+
+(1)Epoch: 18
+Loss: 0.12 | Acc: 95.88
+Loss: 0.23 | Acc: 90.00
+
+(1)Epoch: 19
+Loss: 0.15 | Acc: 94.38
+Loss: 0.29 | Acc: 88.33
+
+(1)Epoch: 20
+Loss: 0.11 | Acc: 95.88
+Loss: 0.15 | Acc: 95.00
+
+(1)Epoch: 21
+Loss: 0.11 | Acc: 95.32
+Loss: 0.19 | Acc: 91.67
+
+(1)Epoch: 22
+Loss: 0.11 | Acc: 96.44
+Loss: 0.10 | Acc: 98.33
+
+(1)Epoch: 23
+Loss: 0.09 | Acc: 95.88
+Loss: 0.22 | Acc: 88.33
+
+(1)Epoch: 24
+Loss: 0.10 | Acc: 95.88
+Loss: 0.11 | Acc: 96.67
+
+(1)Epoch: 25
+Loss: 0.13 | Acc: 95.51
+Loss: 0.21 | Acc: 93.33
+
+(1)Epoch: 26
+Loss: 0.18 | Acc: 93.45
+Loss: 0.16 | Acc: 93.33
+
+(1)Epoch: 27
+Loss: 0.18 | Acc: 92.88
+Loss: 0.13 | Acc: 96.67
+
+(1)Epoch: 28
+Loss: 0.13 | Acc: 96.44
+Loss: 0.24 | Acc: 91.67
+
+(1)Epoch: 29
+Loss: 0.11 | Acc: 95.69
+Loss: 0.11 | Acc: 96.67
+
+(1)Epoch: 30
+Loss: 0.13 | Acc: 95.51
+Loss: 0.16 | Acc: 93.33
+
+(1)Epoch: 31
+Loss: 0.14 | Acc: 93.63
+Loss: 0.16 | Acc: 93.33
+
+(1)Epoch: 32
+Loss: 0.09 | Acc: 96.25
+Loss: 0.15 | Acc: 95.00
+
+(2)Epoch: 0
+Loss: 0.70 | Acc: 61.61
+Loss: 0.69 | Acc: 58.33
+
+(2)Epoch: 1
+Loss: 0.32 | Acc: 86.70
+Loss: 0.88 | Acc: 58.33
+
+(2)Epoch: 2
+Loss: 0.33 | Acc: 86.89
+Loss: 0.37 | Acc: 90.00
+
+(2)Epoch: 3
+Loss: 0.20 | Acc: 93.07
+Loss: 0.28 | Acc: 90.00
+
+(2)Epoch: 4
+Loss: 0.27 | Acc: 89.89
+Loss: 0.30 | Acc: 85.00
+
+(2)Epoch: 5
+Loss: 0.24 | Acc: 90.07
+Loss: 0.40 | Acc: 93.33
+
+(2)Epoch: 6
+Loss: 0.23 | Acc: 92.51
+Loss: 0.18 | Acc: 93.33
+
+(2)Epoch: 7
+Loss: 0.16 | Acc: 94.76
+Loss: 0.16 | Acc: 93.33
+
+(2)Epoch: 8
+Loss: 0.16 | Acc: 94.19
+Loss: 0.18 | Acc: 95.00
+
+(2)Epoch: 9
+Loss: 0.14 | Acc: 94.76
+Loss: 0.17 | Acc: 91.67
+
+(2)Epoch: 10
+Loss: 0.13 | Acc: 95.13
+Loss: 0.50 | Acc: 78.33
+
+(2)Epoch: 11
+Loss: 0.20 | Acc: 91.01
+Loss: 0.28 | Acc: 88.33
+
+(2)Epoch: 12
+Loss: 0.17 | Acc: 93.82
+Loss: 0.14 | Acc: 93.33
+
+(2)Epoch: 13
+Loss: 0.16 | Acc: 93.82
+Loss: 0.18 | Acc: 93.33
+
+(2)Epoch: 14
+Loss: 0.13 | Acc: 94.57
+Loss: 0.14 | Acc: 95.00
+
+(2)Epoch: 15
+Loss: 0.12 | Acc: 95.88
+Loss: 0.19 | Acc: 93.33
+
+(2)Epoch: 16
+Loss: 0.15 | Acc: 94.76
+Loss: 0.25 | Acc: 95.00
+
+(2)Epoch: 17
+Loss: 0.12 | Acc: 94.76
+Loss: 0.18 | Acc: 90.00
+
+(2)Epoch: 18
+Loss: 0.12 | Acc: 95.51
+Loss: 0.19 | Acc: 88.33
+
+(2)Epoch: 19
+Loss: 0.13 | Acc: 95.69
+Loss: 0.15 | Acc: 95.00
+
+(2)Epoch: 20
+Loss: 0.12 | Acc: 95.32
+Loss: 0.21 | Acc: 91.67
+
+(2)Epoch: 21
+Loss: 0.12 | Acc: 95.32
+Loss: 0.17 | Acc: 95.00
+
+(2)Epoch: 22
+Loss: 0.10 | Acc: 96.82
+Loss: 0.22 | Acc: 95.00
+
+(3)Epoch: 0
+Loss: 0.73 | Acc: 63.48
+Loss: 0.67 | Acc: 61.67
+
+(3)Epoch: 1
+Loss: 0.36 | Acc: 85.21
+Loss: 0.87 | Acc: 61.67
+
+(3)Epoch: 2
+Loss: 0.29 | Acc: 87.45
+Loss: 0.37 | Acc: 90.00
+
+(3)Epoch: 3
+Loss: 0.21 | Acc: 92.51
+Loss: 0.30 | Acc: 93.33
+
+(3)Epoch: 4
+Loss: 0.24 | Acc: 92.51
+Loss: 0.24 | Acc: 86.67
+
+(3)Epoch: 5
+Loss: 0.20 | Acc: 91.39
+Loss: 0.16 | Acc: 93.33
+
+(3)Epoch: 6
+Loss: 0.24 | Acc: 91.76
+Loss: 0.18 | Acc: 91.67
+
+(3)Epoch: 7
+Loss: 0.30 | Acc: 88.58
+Loss: 0.22 | Acc: 91.67
+
+(3)Epoch: 8
+Loss: 0.21 | Acc: 91.20
+Loss: 0.21 | Acc: 93.33
+
+(3)Epoch: 9
+Loss: 0.18 | Acc: 93.45
+Loss: 0.15 | Acc: 93.33
+
+(3)Epoch: 10
+Loss: 0.18 | Acc: 93.63
+Loss: 0.16 | Acc: 91.67
+
+(3)Epoch: 11
+Loss: 0.17 | Acc: 94.19
+Loss: 0.09 | Acc: 98.33
+
+(3)Epoch: 12
+Loss: 0.13 | Acc: 94.76
+Loss: 0.11 | Acc: 98.33
+
+(3)Epoch: 13
+Loss: 0.19 | Acc: 92.51
+Loss: 0.20 | Acc: 90.00
+
+(3)Epoch: 14
+Loss: 0.17 | Acc: 93.82
+Loss: 0.14 | Acc: 93.33
+
+(3)Epoch: 15
+Loss: 0.17 | Acc: 94.19
+Loss: 0.11 | Acc: 98.33
+
+(3)Epoch: 16
+Loss: 0.12 | Acc: 96.25
+Loss: 0.10 | Acc: 98.33
+
+(3)Epoch: 17
+Loss: 0.12 | Acc: 95.13
+Loss: 0.09 | Acc: 96.67
+
+(3)Epoch: 18
+Loss: 0.16 | Acc: 95.13
+Loss: 0.19 | Acc: 95.00
+
+(3)Epoch: 19
+Loss: 0.19 | Acc: 92.70
+Loss: 0.07 | Acc: 96.67
+
+(3)Epoch: 20
+Loss: 0.14 | Acc: 94.94
+Loss: 0.60 | Acc: 71.67
+
+(3)Epoch: 21
+Loss: 0.16 | Acc: 94.76
+Loss: 0.12 | Acc: 95.00
+
+(3)Epoch: 22
+Loss: 0.18 | Acc: 93.45
+Loss: 0.18 | Acc: 93.33
+
+(3)Epoch: 23
+Loss: 0.14 | Acc: 95.32
+Loss: 0.10 | Acc: 98.33
+
+(3)Epoch: 24
+Loss: 0.13 | Acc: 96.07
+Loss: 0.10 | Acc: 96.67
+
+(3)Epoch: 25
+Loss: 0.09 | Acc: 96.07
+Loss: 0.12 | Acc: 95.00
+
+(3)Epoch: 26
+Loss: 0.13 | Acc: 95.32
+Loss: 0.11 | Acc: 95.00
+
+(3)Epoch: 27
+Loss: 0.14 | Acc: 94.76
+Loss: 0.22 | Acc: 88.33
+
+(3)Epoch: 28
+Loss: 0.15 | Acc: 92.70
+Loss: 0.11 | Acc: 96.67
+
+(3)Epoch: 29
+Loss: 0.10 | Acc: 97.00
+Loss: 0.14 | Acc: 95.00
+
+(4)Epoch: 0
+Loss: 0.64 | Acc: 68.16
+Loss: 1.02 | Acc: 60.00
+
+(4)Epoch: 1
+Loss: 0.43 | Acc: 85.02
+Loss: 0.46 | Acc: 80.00
+
+(4)Epoch: 2
+Loss: 0.27 | Acc: 88.58
+Loss: 0.20 | Acc: 91.67
+
+(4)Epoch: 3
+Loss: 0.27 | Acc: 88.39
+Loss: 0.14 | Acc: 93.33
+
+(4)Epoch: 4
+Loss: 0.26 | Acc: 90.26
+Loss: 0.15 | Acc: 95.00
+
+(4)Epoch: 5
+Loss: 0.23 | Acc: 92.13
+Loss: 0.19 | Acc: 91.67
+
+(4)Epoch: 6
+Loss: 0.17 | Acc: 92.51
+Loss: 0.15 | Acc: 95.00
+
+(4)Epoch: 7
+Loss: 0.20 | Acc: 91.20
+Loss: 0.15 | Acc: 93.33
+
+(4)Epoch: 8
+Loss: 0.19 | Acc: 92.32
+Loss: 0.15 | Acc: 93.33
+
+(4)Epoch: 9
+Loss: 0.20 | Acc: 91.20
+Loss: 0.13 | Acc: 95.00
+
+(4)Epoch: 10
+Loss: 0.16 | Acc: 94.19
+Loss: 0.15 | Acc: 95.00
+
+(4)Epoch: 11
+Loss: 0.16 | Acc: 94.57
+Loss: 0.21 | Acc: 91.67
+
+(4)Epoch: 12
+Loss: 0.19 | Acc: 92.88
+Loss: 0.35 | Acc: 91.67
+
+(4)Epoch: 13
+Loss: 0.16 | Acc: 92.88
+Loss: 0.22 | Acc: 90.00
+
+(4)Epoch: 14
+Loss: 0.12 | Acc: 96.07
+Loss: 0.22 | Acc: 90.00
+
+(4)Epoch: 15
+Loss: 0.15 | Acc: 94.76
+Loss: 0.19 | Acc: 93.33
+
+(4)Epoch: 16
+Loss: 0.13 | Acc: 96.25
+Loss: 0.17 | Acc: 93.33
+
+(4)Epoch: 17
+Loss: 0.18 | Acc: 93.82
+Loss: 0.14 | Acc: 95.00
+
+(4)Epoch: 18
+Loss: 0.14 | Acc: 94.76
+Loss: 0.18 | Acc: 91.67
+
+(4)Epoch: 19
+Loss: 0.12 | Acc: 94.76
+Loss: 0.14 | Acc: 93.33
+
+(5)Epoch: 0
+Loss: 0.68 | Acc: 63.11
+Loss: 0.66 | Acc: 61.67
+
+(5)Epoch: 1
+Loss: 0.34 | Acc: 86.14
+Loss: 0.67 | Acc: 65.00
+
+(5)Epoch: 2
+Loss: 0.28 | Acc: 89.51
+Loss: 0.24 | Acc: 88.33
+
+(5)Epoch: 3
+Loss: 0.22 | Acc: 91.01
+Loss: 0.09 | Acc: 96.67
+
+(5)Epoch: 4
+Loss: 0.25 | Acc: 90.82
+Loss: 0.29 | Acc: 90.00
+
+(5)Epoch: 5
+Loss: 0.20 | Acc: 93.45
+Loss: 0.21 | Acc: 93.33
+
+(5)Epoch: 6
+Loss: 0.19 | Acc: 93.26
+Loss: 0.14 | Acc: 93.33
+
+(5)Epoch: 7
+Loss: 0.20 | Acc: 91.95
+Loss: 0.19 | Acc: 91.67
+
+(5)Epoch: 8
+Loss: 0.22 | Acc: 92.32
+Loss: 0.17 | Acc: 90.00
+
+(5)Epoch: 9
+Loss: 0.19 | Acc: 93.26
+Loss: 0.10 | Acc: 98.33
+
+(5)Epoch: 10
+Loss: 0.17 | Acc: 94.19
+Loss: 0.12 | Acc: 96.67
+
+(5)Epoch: 11
+Loss: 0.16 | Acc: 95.13
+Loss: 0.10 | Acc: 98.33
+
+(5)Epoch: 12
+Loss: 0.16 | Acc: 93.63
+Loss: 0.10 | Acc: 95.00
+
+(5)Epoch: 13
+Loss: 0.17 | Acc: 93.45
+Loss: 0.16 | Acc: 93.33
+
+(6)Epoch: 0
+Loss: 0.72 | Acc: 61.24
+Loss: 0.69 | Acc: 58.33
+
+(6)Epoch: 1
+Loss: 0.45 | Acc: 82.77
+Loss: 0.47 | Acc: 78.33
+
+(6)Epoch: 2
+Loss: 0.31 | Acc: 88.20
+Loss: 0.19 | Acc: 96.67
+
+(6)Epoch: 3
+Loss: 0.26 | Acc: 88.76
+Loss: 0.09 | Acc: 96.67
+
+(6)Epoch: 4
+Loss: 0.24 | Acc: 90.45
+Loss: 0.11 | Acc: 98.33
+
+(6)Epoch: 5
+Loss: 0.30 | Acc: 87.45
+Loss: 0.11 | Acc: 95.00
+
+(6)Epoch: 6
+Loss: 0.22 | Acc: 92.32
+Loss: 0.09 | Acc: 95.00
+
+(6)Epoch: 7
+Loss: 0.21 | Acc: 91.95
+Loss: 0.15 | Acc: 95.00
+
+(6)Epoch: 8
+Loss: 0.22 | Acc: 91.76
+Loss: 0.10 | Acc: 95.00
+
+(6)Epoch: 9
+Loss: 0.19 | Acc: 93.26
+Loss: 0.06 | Acc: 98.33
+
+(6)Epoch: 10
+Loss: 0.18 | Acc: 93.45
+Loss: 0.04 | Acc: 100.00
+
+(6)Epoch: 11
+Loss: 0.16 | Acc: 93.45
+Loss: 0.33 | Acc: 85.00
+
+(6)Epoch: 12
+Loss: 0.23 | Acc: 90.82
+Loss: 0.10 | Acc: 96.67
+
+(6)Epoch: 13
+Loss: 0.17 | Acc: 92.70
+Loss: 0.10 | Acc: 95.00
+
+(6)Epoch: 14
+Loss: 0.18 | Acc: 93.26
+Loss: 0.15 | Acc: 98.33
+
+(6)Epoch: 15
+Loss: 0.12 | Acc: 95.51
+Loss: 0.11 | Acc: 95.00
+
+(6)Epoch: 16
+Loss: 0.14 | Acc: 94.57
+Loss: 0.13 | Acc: 95.00
+
+(6)Epoch: 17
+Loss: 0.15 | Acc: 94.76
+Loss: 0.07 | Acc: 98.33
+
+(6)Epoch: 18
+Loss: 0.14 | Acc: 94.76
+Loss: 0.08 | Acc: 95.00
+
+(6)Epoch: 19
+Loss: 0.16 | Acc: 94.38
+Loss: 0.05 | Acc: 96.67
+
+(6)Epoch: 20
+Loss: 0.14 | Acc: 94.01
+Loss: 0.20 | Acc: 91.67
+
+(7)Epoch: 0
+Loss: 0.60 | Acc: 70.04
+Loss: 0.67 | Acc: 61.67
+
+(7)Epoch: 1
+Loss: 0.33 | Acc: 88.20
+Loss: 0.73 | Acc: 63.33
+
+(7)Epoch: 2
+Loss: 0.27 | Acc: 89.70
+Loss: 0.22 | Acc: 90.00
+
+(7)Epoch: 3
+Loss: 0.21 | Acc: 92.70
+Loss: 0.23 | Acc: 95.00
+
+(7)Epoch: 4
+Loss: 0.16 | Acc: 93.07
+Loss: 0.25 | Acc: 88.33
+
+(7)Epoch: 5
+Loss: 0.14 | Acc: 94.76
+Loss: 0.26 | Acc: 93.33
+
+(7)Epoch: 6
+Loss: 0.16 | Acc: 94.01
+Loss: 0.30 | Acc: 88.33
+
+(7)Epoch: 7
+Loss: 0.14 | Acc: 94.94
+Loss: 0.33 | Acc: 90.00
+
+(7)Epoch: 8
+Loss: 0.15 | Acc: 95.88
+Loss: 0.58 | Acc: 70.00
+
+(7)Epoch: 9
+Loss: 0.20 | Acc: 91.57
+Loss: 0.43 | Acc: 81.67
+
+(7)Epoch: 10
+Loss: 0.19 | Acc: 93.26
+Loss: 0.22 | Acc: 91.67
+
+(7)Epoch: 11
+Loss: 0.16 | Acc: 93.82
+Loss: 0.21 | Acc: 95.00
+
+(7)Epoch: 12
+Loss: 0.12 | Acc: 96.25
+Loss: 0.24 | Acc: 95.00
+
+(7)Epoch: 13
+Loss: 0.11 | Acc: 96.44
+Loss: 0.38 | Acc: 78.33
+
+(7)Epoch: 14
+Loss: 0.13 | Acc: 95.32
+Loss: 0.23 | Acc: 95.00
+
+(7)Epoch: 15
+Loss: 0.12 | Acc: 95.51
+Loss: 0.27 | Acc: 93.33
+
+(7)Epoch: 16
+Loss: 0.14 | Acc: 94.01
+Loss: 0.18 | Acc: 95.00
+
+(7)Epoch: 17
+Loss: 0.14 | Acc: 95.69
+Loss: 0.19 | Acc: 93.33
+
+(7)Epoch: 18
+Loss: 0.13 | Acc: 95.32
+Loss: 0.24 | Acc: 95.00
+
+(7)Epoch: 19
+Loss: 0.15 | Acc: 94.57
+Loss: 0.22 | Acc: 96.67
+
+(7)Epoch: 20
+Loss: 0.12 | Acc: 95.88
+Loss: 0.17 | Acc: 95.00
+
+(7)Epoch: 21
+Loss: 0.11 | Acc: 96.07
+Loss: 0.37 | Acc: 86.67
+
+(7)Epoch: 22
+Loss: 0.09 | Acc: 96.44
+Loss: 0.21 | Acc: 96.67
+
+(7)Epoch: 23
+Loss: 0.13 | Acc: 94.76
+Loss: 0.20 | Acc: 93.33
+
+(7)Epoch: 24
+Loss: 0.10 | Acc: 95.88
+Loss: 0.42 | Acc: 80.00
+
+(7)Epoch: 25
+Loss: 0.12 | Acc: 96.07
+Loss: 0.26 | Acc: 90.00
+
+(7)Epoch: 26
+Loss: 0.13 | Acc: 94.57
+Loss: 0.17 | Acc: 95.00
+
+(7)Epoch: 27
+Loss: 0.10 | Acc: 96.63
+Loss: 0.23 | Acc: 95.00
+
+(7)Epoch: 28
+Loss: 0.12 | Acc: 95.32
+Loss: 0.24 | Acc: 91.67
+
+(7)Epoch: 29
+Loss: 0.07 | Acc: 97.38
+Loss: 0.25 | Acc: 91.67
+
+(7)Epoch: 30
+Loss: 0.08 | Acc: 96.82
+Loss: 0.21 | Acc: 93.33
+
+(7)Epoch: 31
+Loss: 0.09 | Acc: 96.44
+Loss: 0.28 | Acc: 93.33
+
+(7)Epoch: 32
+Loss: 0.09 | Acc: 96.25
+Loss: 0.62 | Acc: 73.33
+
+(7)Epoch: 33
+Loss: 0.10 | Acc: 95.88
+Loss: 0.18 | Acc: 95.00
+
+(7)Epoch: 34
+Loss: 0.08 | Acc: 96.82
+Loss: 0.17 | Acc: 95.00
+
+(7)Epoch: 35
+Loss: 0.09 | Acc: 96.63
+Loss: 0.26 | Acc: 93.33
+
+(7)Epoch: 36
+Loss: 0.07 | Acc: 97.38
+Loss: 0.46 | Acc: 91.67
+
+(8)Epoch: 0
+Loss: 0.80 | Acc: 55.43
+Loss: 0.75 | Acc: 30.00
+
+(8)Epoch: 1
+Loss: 0.40 | Acc: 83.15
+Loss: 0.34 | Acc: 86.67
+
+(8)Epoch: 2
+Loss: 0.25 | Acc: 90.45
+Loss: 0.23 | Acc: 91.67
+
+(8)Epoch: 3
+Loss: 0.24 | Acc: 89.14
+Loss: 0.31 | Acc: 88.33
+
+(8)Epoch: 4
+Loss: 0.21 | Acc: 92.13
+Loss: 0.18 | Acc: 93.33
+
+(8)Epoch: 5
+Loss: 0.23 | Acc: 91.76
+Loss: 0.30 | Acc: 86.67
+
+(8)Epoch: 6
+Loss: 0.22 | Acc: 93.07
+Loss: 0.15 | Acc: 93.33
+
+(8)Epoch: 7
+Loss: 0.21 | Acc: 93.07
+Loss: 0.24 | Acc: 93.33
+
+(8)Epoch: 8
+Loss: 0.22 | Acc: 90.45
+Loss: 0.34 | Acc: 90.00
+
+(8)Epoch: 9
+Loss: 0.21 | Acc: 92.88
+Loss: 0.29 | Acc: 90.00
+
+(8)Epoch: 10
+Loss: 0.18 | Acc: 94.19
+Loss: 0.21 | Acc: 91.67
+
+(8)Epoch: 11
+Loss: 0.14 | Acc: 94.01
+Loss: 0.39 | Acc: 91.67
+
+(8)Epoch: 12
+Loss: 0.17 | Acc: 94.38
+Loss: 0.20 | Acc: 93.33
+
+(8)Epoch: 13
+Loss: 0.15 | Acc: 94.76
+Loss: 0.15 | Acc: 95.00
+
+(8)Epoch: 14
+Loss: 0.14 | Acc: 93.82
+Loss: 0.16 | Acc: 95.00
+
+(8)Epoch: 15
+Loss: 0.15 | Acc: 95.13
+Loss: 0.14 | Acc: 95.00
+
+(8)Epoch: 16
+Loss: 0.17 | Acc: 96.07
+Loss: 0.19 | Acc: 96.67
+
+(8)Epoch: 17
+Loss: 0.14 | Acc: 94.01
+Loss: 0.12 | Acc: 96.67
+
+(8)Epoch: 18
+Loss: 0.13 | Acc: 95.51
+Loss: 0.15 | Acc: 95.00
+
+(8)Epoch: 19
+Loss: 0.11 | Acc: 95.88
+Loss: 0.26 | Acc: 90.00
+
+(8)Epoch: 20
+Loss: 0.19 | Acc: 93.82
+Loss: 0.27 | Acc: 93.33
+
+(8)Epoch: 21
+Loss: 0.16 | Acc: 94.19
+Loss: 0.11 | Acc: 96.67
+
+(8)Epoch: 22
+Loss: 0.15 | Acc: 95.32
+Loss: 0.13 | Acc: 95.00
+
+(8)Epoch: 23
+Loss: 0.11 | Acc: 95.32
+Loss: 0.16 | Acc: 93.33
+
+(8)Epoch: 24
+Loss: 0.11 | Acc: 95.88
+Loss: 0.10 | Acc: 98.33
+
+(8)Epoch: 25
+Loss: 0.15 | Acc: 93.45
+Loss: 0.38 | Acc: 91.67
+
+(8)Epoch: 26
+Loss: 0.15 | Acc: 93.63
+Loss: 0.13 | Acc: 96.67
+
+(8)Epoch: 27
+Loss: 0.13 | Acc: 94.57
+Loss: 0.12 | Acc: 98.33
+
+(8)Epoch: 28
+Loss: 0.14 | Acc: 95.32
+Loss: 0.12 | Acc: 98.33
+
+(8)Epoch: 29
+Loss: 0.11 | Acc: 95.88
+Loss: 0.15 | Acc: 95.00
+
+(8)Epoch: 30
+Loss: 0.13 | Acc: 95.32
+Loss: 0.10 | Acc: 98.33
+
+(8)Epoch: 31
+Loss: 0.09 | Acc: 97.38
+Loss: 0.11 | Acc: 98.33
+
+(8)Epoch: 32
+Loss: 0.11 | Acc: 96.07
+Loss: 0.22 | Acc: 91.67
+
+(8)Epoch: 33
+Loss: 0.09 | Acc: 97.75
+Loss: 0.15 | Acc: 96.67
+
+(8)Epoch: 34
+Loss: 0.10 | Acc: 95.88
+Loss: 0.15 | Acc: 95.00
+
+(8)Epoch: 35
+Loss: 0.09 | Acc: 96.63
+Loss: 0.09 | Acc: 98.33
+
+(8)Epoch: 36
+Loss: 0.08 | Acc: 96.63
+Loss: 0.12 | Acc: 96.67
+
+(8)Epoch: 37
+Loss: 0.10 | Acc: 96.25
+Loss: 0.16 | Acc: 95.00
+
+(8)Epoch: 38
+Loss: 0.12 | Acc: 94.57
+Loss: 0.12 | Acc: 96.67
+
+(8)Epoch: 39
+Loss: 0.10 | Acc: 96.25
+Loss: 0.11 | Acc: 98.33
+
+(8)Epoch: 40
+Loss: 0.09 | Acc: 96.07
+Loss: 0.11 | Acc: 96.67
+
+(8)Epoch: 41
+Loss: 0.09 | Acc: 96.07
+Loss: 0.13 | Acc: 98.33
+
+(8)Epoch: 42
+Loss: 0.09 | Acc: 96.63
+Loss: 0.13 | Acc: 95.00
+
+(8)Epoch: 43
+Loss: 0.10 | Acc: 95.51
+Loss: 0.16 | Acc: 95.00
+
+(8)Epoch: 44
+Loss: 0.08 | Acc: 96.63
+Loss: 0.13 | Acc: 96.67
+
+(8)Epoch: 45
+Loss: 0.07 | Acc: 97.57
+Loss: 0.16 | Acc: 96.67
+
+(9)Epoch: 0
+Loss: 0.58 | Acc: 73.89
+Loss: 0.64 | Acc: 68.52
+
+(9)Epoch: 1
+Loss: 0.33 | Acc: 87.41
+Loss: 0.61 | Acc: 68.52
+
+(9)Epoch: 2
+Loss: 0.25 | Acc: 89.26
+Loss: 0.47 | Acc: 85.19
+
+(9)Epoch: 3
+Loss: 0.23 | Acc: 90.37
+Loss: 0.26 | Acc: 85.19
+
+(9)Epoch: 4
+Loss: 0.20 | Acc: 92.96
+Loss: 0.24 | Acc: 83.33
+
+(9)Epoch: 5
+Loss: 0.23 | Acc: 91.85
+Loss: 0.23 | Acc: 85.19
+
+(9)Epoch: 6
+Loss: 0.17 | Acc: 93.89
+Loss: 0.20 | Acc: 88.89
+
+(9)Epoch: 7
+Loss: 0.21 | Acc: 92.41
+Loss: 0.24 | Acc: 88.89
+
+(9)Epoch: 8
+Loss: 0.15 | Acc: 94.63
+Loss: 0.32 | Acc: 85.19
+
+(9)Epoch: 9
+Loss: 0.17 | Acc: 95.19
+Loss: 0.28 | Acc: 88.89
+
+(9)Epoch: 10
+Loss: 0.25 | Acc: 88.70
+Loss: 0.24 | Acc: 88.89
+
+(9)Epoch: 11
+Loss: 0.18 | Acc: 93.15
+Loss: 0.39 | Acc: 81.48
+
+(9)Epoch: 12
+Loss: 0.15 | Acc: 94.44
+Loss: 0.26 | Acc: 88.89
+
+(9)Epoch: 13
+Loss: 0.18 | Acc: 92.78
+Loss: 0.25 | Acc: 88.89
+
+(9)Epoch: 14

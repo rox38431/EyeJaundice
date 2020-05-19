@@ -100,8 +100,8 @@ def save_image(image_dicts, input_image_name, network, output_dir):
         io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
 
 
-def CAM(net, date):
-    img_list = glob.glob("./../eye_data/dataset/test/*")
+def CAM(net, img_list, date, input_type):
+    # img_list = glob.glob("./../eye_data/dataset/test/*")
     correct = 0
     for img_path in img_list:
         file_name = img_path.split("/")[-1]
@@ -123,7 +123,7 @@ def CAM(net, date):
         inputs = torch.tensor(inputs, requires_grad=True)
         inputs = Variable(inputs, requires_grad=True).cuda()
         inputs.retain_grad()
-        # output = net(inputs)
+        output = net(inputs)
        
         img = io.imread(img_path)
         img = np.float32(cv2.resize(img, (224, 224))) / 255
@@ -131,10 +131,10 @@ def CAM(net, date):
 
         # print(output.data, class_id-1)
 
-        # _, predicted = output.max(1)
-        # print(predicted[0].item())
-        # if (predicted[0].item() == class_id - 1):
-        #     correct += 1
+        _, predicted = output.max(1)
+        print(predicted[0].item())
+        if (predicted[0].item() == class_id - 1):
+            correct += 1
 
         image_dict = {}
 
@@ -164,8 +164,8 @@ def CAM(net, date):
         cam_gb = gb * mask[..., np.newaxis]
         image_dict['cam_gb'] = norm_image(cam_gb)
 
-        save_image(image_dict, file_name, "EfficientNet-B0", "./grad_cam_result")
+        save_image(image_dict, file_name, "EfficientNet-B0", f"./grad_cam_result/{input_type}_{date}")
         
-    print(correct)
+    print("Test the accuracy on Grad-CAM:", correct / len(img_list))
 
 

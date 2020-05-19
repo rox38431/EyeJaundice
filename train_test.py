@@ -40,7 +40,6 @@ def test(net, criterion, epoch, testloader):
         for batch_idx, (inputs, targets) in enumerate(testloader):
             inputs, targets = Variable(inputs).cuda(), Variable(targets).cuda()
             outputs = net(inputs)
-            print(outputs[0].data, outputs[1].data)
             loss = criterion(outputs, targets)
 
             test_loss += loss.item()
@@ -66,7 +65,7 @@ def k_fold_cross_validation(net, optimizer, criterion, train_img_list, k, presen
         best_valid_loss, best_valid_epoch, non_improve_count = 10000, 0, 0
        
         for epoch in range(120):
-            print(f"\n({val_idx+1})Epoch: {epoch + 1}")
+            print(f"\n({val_idx})Epoch: {epoch}")
             train_acc, train_loss = train(net, optimizer, criterion, epoch, train_loader)
             valid_acc, valid_loss = test(net, criterion, epoch, valid_loader)
 
@@ -83,7 +82,7 @@ def k_fold_cross_validation(net, optimizer, criterion, train_img_list, k, presen
             else:
                 non_improve_count += 1
 
-            if (non_improve_count >= 5):
+            if (non_improve_count >= 10):
                 break
 
         total_best_valid_acc += valid_acc_list[best_valid_epoch]
@@ -91,7 +90,7 @@ def k_fold_cross_validation(net, optimizer, criterion, train_img_list, k, presen
         plot_figure(train_acc_list, valid_acc_list, train_loss_list, valid_loss_list, val_idx, present_time)
 
     print("\n----------")
-    print(f"valid acc: {total_best_valid_acc / 5:.2f}, valid loss: {total_best_valid_loss / 5:.2f}")
+    print(f"valid acc: {total_best_valid_acc / k:.2f}, valid loss: {total_best_valid_loss / k:.2f}")
 
 
 def final_training(net, optimizer, criterion, train_img_list, present_time):

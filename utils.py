@@ -11,7 +11,7 @@ def get_last_conv_name(net):
     return layer_name
 
 
-def prepare_dir(present_time):
+def prepare_dir(present_time, input_type):
     if (os.path.exists("./weights") == False):
         os.mkdir("./weights")
 
@@ -23,6 +23,9 @@ def prepare_dir(present_time):
 
     if (os.path.exists(f"./plt_figure/{present_time}") == False):
         os.mkdir(f"./plt_figure/{present_time}")
+
+    if (os.path.exists(f"./grad_cam_result/{input_type}_{present_time}") == False):
+        os.mkdir(f"./grad_cam_result/{input_type}_{present_time}")
 
 
 def plot_figure(train_acc_list, valid_acc_list, train_loss_list, valid_loss_list, val_idx, present_time):
