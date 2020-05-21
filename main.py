@@ -38,7 +38,7 @@ def main():
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
     present_time = time.strftime("%Y_%m_%d_%H_%M_%S", time.localtime())
-    input_type = "only_eye"
+    input_type = "only_one_eye"
 
     print("Prepare directory...")
     prepare_dir(present_time, input_type)

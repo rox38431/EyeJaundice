@@ -26,7 +26,7 @@ class GradCAM(object):
 
     def _get_features_hook(self, module, input, output):
         self.feature = output
-        print("feature shape:{}".format(output.size()))
+        # print("feature shape:{}".format(output.size()))
 
     def _get_grads_hook(self, module, input_grad, output_grad):
         """
@@ -58,12 +58,12 @@ class GradCAM(object):
         """
         self.net.zero_grad()
         output = self.net(inputs)  # [1,num_classes]
-        print(output.shape, output)
+        # print(output.shape, output)
         if index is None:
             index = np.argmax(output.cpu().data.numpy()) - 1
-        print(output.shape)
-        print(output)
-        print(index)
+        # print(output.shape)
+        # print(output)
+        # print(index)
         target = output[0][index]
         target.backward()
 

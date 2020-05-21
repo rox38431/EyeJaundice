@@ -1039,3 +1039,1093 @@ Loss: 0.18 | Acc: 92.78
 Loss: 0.25 | Acc: 88.89
 
 (9)Epoch: 14
+Loss: 0.13 | Acc: 95.37
+Loss: 0.22 | Acc: 90.74
+
+(9)Epoch: 15
+Loss: 0.12 | Acc: 95.19
+Loss: 0.33 | Acc: 87.04
+
+(9)Epoch: 16
+Loss: 0.15 | Acc: 94.26
+Loss: 0.26 | Acc: 88.89
+
+----------
+valid acc: 95.89, valid loss: 0.12
+
+(train)Epoch: 0
+Loss: 0.61 | Acc: 68.69
+
+(train)Epoch: 1
+Loss: 0.33 | Acc: 86.36
+
+(train)Epoch: 2
+Loss: 0.30 | Acc: 88.89
+
+(train)Epoch: 3
+Loss: 0.23 | Acc: 92.93
+
+(train)Epoch: 4
+Loss: 0.20 | Acc: 92.76
+
+(train)Epoch: 5
+Loss: 0.17 | Acc: 93.77
+
+(train)Epoch: 6
+Loss: 0.21 | Acc: 92.26
+
+(train)Epoch: 7
+Loss: 0.17 | Acc: 93.27
+
+(train)Epoch: 8
+Loss: 0.18 | Acc: 92.76
+
+(train)Epoch: 9
+Loss: 0.17 | Acc: 93.43
+
+(train)Epoch: 10
+Loss: 0.17 | Acc: 93.77
+
+(train)Epoch: 11
+Loss: 0.19 | Acc: 91.58
+
+(train)Epoch: 12
+Loss: 0.15 | Acc: 93.77
+
+(train)Epoch: 13
+Loss: 0.17 | Acc: 93.94
+
+(train)Epoch: 14
+Loss: 0.17 | Acc: 94.61
+
+(train)Epoch: 15
+Loss: 0.15 | Acc: 94.95
+
+(train)Epoch: 16
+Loss: 0.13 | Acc: 95.45
+
+(train)Epoch: 17
+Loss: 0.14 | Acc: 93.60
+
+(train)Epoch: 18
+Loss: 0.13 | Acc: 95.12
+
+(train)Epoch: 19
+Loss: 0.13 | Acc: 94.95
+
+(train)Epoch: 20
+Loss: 0.13 | Acc: 95.12
+
+(train)Epoch: 21
+Loss: 0.14 | Acc: 94.28
+
+(train)Epoch: 22
+Loss: 0.17 | Acc: 94.11
+
+(train)Epoch: 23
+Loss: 0.15 | Acc: 94.28
+
+(train)Epoch: 24
+Loss: 0.11 | Acc: 96.46
+
+(train)Epoch: 25
+Loss: 0.10 | Acc: 95.96
+
+(train)Epoch: 26
+Loss: 0.10 | Acc: 96.13
+
+(train)Epoch: 27
+Loss: 0.11 | Acc: 96.97
+
+(train)Epoch: 28
+Loss: 0.09 | Acc: 96.63
+
+(train)Epoch: 29
+Loss: 0.09 | Acc: 96.80
+
+(train)Epoch: 30
+Loss: 0.10 | Acc: 96.30
+
+(train)Epoch: 31
+Loss: 0.08 | Acc: 96.80
+
+(train)Epoch: 32
+Loss: 0.13 | Acc: 95.12
+
+(train)Epoch: 33
+Loss: 0.13 | Acc: 95.45
+
+(train)Epoch: 34
+Loss: 0.11 | Acc: 95.45
+
+(train)Epoch: 35
+Loss: 0.13 | Acc: 94.95
+
+(train)Epoch: 36
+Loss: 0.10 | Acc: 95.62
+
+(train)Epoch: 37
+Loss: 0.13 | Acc: 95.79
+
+(train)Epoch: 38
+Loss: 0.09 | Acc: 97.31
+
+(train)Epoch: 39
+Loss: 0.09 | Acc: 96.97
+
+(train)Epoch: 40
+Loss: 0.06 | Acc: 97.81
+
+(train)Epoch: 41
+Loss: 0.07 | Acc: 97.14
+
+(train)Epoch: 42
+Loss: 0.08 | Acc: 97.14
+
+(train)Epoch: 43
+Loss: 0.11 | Acc: 96.13
+
+(train)Epoch: 44
+Loss: 0.12 | Acc: 95.96
+
+(train)Epoch: 45
+Loss: 0.11 | Acc: 96.63
+
+(train)Epoch: 46
+Loss: 0.09 | Acc: 96.46
+
+(train)Epoch: 47
+Loss: 0.07 | Acc: 97.98
+
+(train)Epoch: 48
+Loss: 0.10 | Acc: 96.63
+
+(train)Epoch: 49
+Loss: 0.12 | Acc: 95.29
+
+(train)Epoch: 50
+Loss: 0.07 | Acc: 97.14
+
+(train)Epoch: 51
+Loss: 0.06 | Acc: 98.32
+
+(train)Epoch: 52
+Loss: 0.08 | Acc: 96.80
+
+(train)Epoch: 53
+Loss: 0.07 | Acc: 97.64
+
+(train)Epoch: 54
+Loss: 0.08 | Acc: 97.64
+
+(train)Epoch: 55
+Loss: 0.10 | Acc: 95.62
+
+(train)Epoch: 56
+Loss: 0.08 | Acc: 96.97
+
+(train)Epoch: 57
+Loss: 0.08 | Acc: 96.97
+
+(train)Epoch: 58
+Loss: 0.10 | Acc: 96.63
+
+(train)Epoch: 59
+Loss: 0.08 | Acc: 97.47
+
+(train)Epoch: 60
+Loss: 0.06 | Acc: 97.64
+
+(train)Epoch: 61
+Loss: 0.10 | Acc: 96.80
+
+(train)Epoch: 62
+Loss: 0.06 | Acc: 98.15
+
+(train)Epoch: 63
+Loss: 0.05 | Acc: 98.48
+
+(train)Epoch: 64
+Loss: 0.05 | Acc: 98.65
+
+(train)Epoch: 65
+Loss: 0.13 | Acc: 95.29
+
+(train)Epoch: 66
+Loss: 0.07 | Acc: 97.31
+
+(train)Epoch: 67
+Loss: 0.07 | Acc: 98.15
+
+(train)Epoch: 68
+Loss: 0.06 | Acc: 97.81
+
+(train)Epoch: 69
+Loss: 0.04 | Acc: 98.82
+
+(train)Epoch: 70
+Loss: 0.05 | Acc: 98.15
+
+(train)Epoch: 71
+Loss: 0.05 | Acc: 98.15
+
+(train)Epoch: 72
+Loss: 0.06 | Acc: 98.32
+
+(train)Epoch: 73
+Loss: 0.08 | Acc: 98.15
+
+(train)Epoch: 74
+Loss: 0.07 | Acc: 97.81
+
+(train)Epoch: 75
+Loss: 0.06 | Acc: 97.98
+
+(train)Epoch: 76
+Loss: 0.05 | Acc: 98.32
+
+(train)Epoch: 77
+Loss: 0.05 | Acc: 98.15
+
+(train)Epoch: 78
+Loss: 0.05 | Acc: 97.98
+
+(train)Epoch: 79
+Loss: 0.04 | Acc: 98.65
+
+(train)Epoch: 80
+Loss: 0.04 | Acc: 98.65
+
+(train)Epoch: 81
+Loss: 0.07 | Acc: 97.98
+
+(train)Epoch: 82
+Loss: 0.06 | Acc: 98.15
+
+(train)Epoch: 83
+Loss: 0.05 | Acc: 98.82
+
+(train)Epoch: 84
+Loss: 0.04 | Acc: 98.65
+
+(train)Epoch: 85
+Loss: 0.12 | Acc: 97.14
+
+(train)Epoch: 86
+Loss: 0.08 | Acc: 96.97
+
+(train)Epoch: 87
+Loss: 0.08 | Acc: 97.14
+
+(train)Epoch: 88
+Loss: 0.07 | Acc: 97.31
+
+(train)Epoch: 89
+Loss: 0.04 | Acc: 98.32
+
+(train)Epoch: 90
+Loss: 0.04 | Acc: 99.33
+
+(train)Epoch: 91
+Loss: 0.04 | Acc: 98.48
+
+(train)Epoch: 92
+Loss: 0.09 | Acc: 97.64
+
+(train)Epoch: 93
+Loss: 0.09 | Acc: 96.80
+
+(train)Epoch: 94
+Loss: 0.08 | Acc: 97.81
+
+(train)Epoch: 95
+Loss: 0.05 | Acc: 98.82
+
+(train)Epoch: 96
+Loss: 0.04 | Acc: 98.15
+
+(train)Epoch: 97
+Loss: 0.04 | Acc: 98.65
+
+(train)Epoch: 98
+Loss: 0.04 | Acc: 98.99
+
+(train)Epoch: 99
+Loss: 0.05 | Acc: 97.98
+
+========= result on testing set =========
+
+testing set length info: 161
+/tmp2/jojo/EyeJaundice/grad_CAM.py:123: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inputs = torch.tensor(inputs, requires_grad=True)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_275-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_461-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_454-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_411-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_411-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_462-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_260-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_408-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_273-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_280-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_415-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_415-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_438-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_382-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_382-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_409-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_453-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_440-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_440-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_421-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_236-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_391-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_460-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_257-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_257-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_435-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_435-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_430-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_448-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_458-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_244-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_244-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_247-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_264-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_263-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_263-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_246-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_389-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_389-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_431-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_431-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_261-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_261-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_416-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_222-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_222-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_444-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_459-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_414-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_393-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_393-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_432-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_445-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_445-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_397-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_397-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_428-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_428-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_258-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_258-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_271-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_446-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_446-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_402-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_387-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_387-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_401-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+Loss: 0.42 | Acc: 91.93
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_386-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_395-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_394-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_405-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_405-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_437-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_240-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_429-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_436-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_412-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_412-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_392-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_229-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_406-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_403-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_426-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_230-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_230-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_285-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_285-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_268-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_268-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_281-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_276-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_276-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_378-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_378-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_232-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_434-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_272-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_425-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_425-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_452-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_422-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_226-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_226-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_255-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_255-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_464-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_245-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_277-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_277-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_413-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_413-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_227-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_451-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_451-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_388-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_447-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_253-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_253-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_256-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_256-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_224-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_241-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_450-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_450-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_235-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_441-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_424-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_424-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_443-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_443-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_267-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_381-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_404-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_390-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_410-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_407-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_254-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_254-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_265-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_265-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/y_243-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_449-EfficientNet-B0-gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+/tmp2/jojo/EyeJaundice/grad_CAM.py:100: UserWarning: ./grad_cam_result/only_eye_2020_05_19_10_32_18/n_449-EfficientNet-B0-cam_gb.jpg is a low contrast image
+  io.imsave(os.path.join(output_dir, '{}-{}-{}.jpg'.format(prefix, network, key)), image)
+
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+1
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+0
+feature shape:torch.Size([1, 320, 14, 14])
+feature shape:torch.Size([1, 320, 14, 14])
+Test the accuracy on Grad-CAM: 0.049689440993788817

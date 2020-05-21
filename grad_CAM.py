@@ -132,7 +132,7 @@ def CAM(net, img_list, date, input_type):
         # print(output.data, class_id-1)
 
         _, predicted = output.max(1)
-        print(predicted[0].item())
+        # print(predicted[0].item())
         if (predicted[0].item() == class_id - 1):
             correct += 1
 
